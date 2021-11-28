@@ -1,0 +1,43 @@
+Arguments: 
+  /usr/local/Cellar/node/17.0.1/bin/node /usr/local/Cellar/yarn/1.22.17/libexec/bin/yarn.js add -D harthat
+
+PATH: 
+  /Users/free-lunch/.rbenv/shims:/Users/free-lunch/bin:/Users/free-lunch/Library/Python/3.7/bin:/usr/local/opt/python/libexec/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/free-lunch/.rbenv/shims:/Users/free-lunch/bin:/Users/free-lunch/Library/Python/3.7/bin:/usr/local/opt/python/libexec/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/Users/free-lunch/.nvm/versions/node/v14.17.4/bin:/usr/local/opt/fzf/bin:/Users/free-lunch/Library/Android/sdk/emulator:/Users/free-lunch/Library/Android/sdk/tools:/Users/free-lunch/Library/Android/sdk/tools/bin:/Users/free-lunch/Library/Android/sdk/platform-tools:/Users/free-lunch/Library/Android/sdk/emulator:/Users/free-lunch/Library/Android/sdk/tools:/Users/free-lunch/Library/Android/sdk/tools/bin:/Users/free-lunch/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  17.0.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/harthat: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.17/libexec/lib/cli.js:67029:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.22.17/libexec/lib/cli.js:140883:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.17/libexec/lib/cli.js:141855:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.17/libexec/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1340:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "nft-moment",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/free-lunch/nft-moment.git",
+    "author": "Jeonghun Jang <jjh783@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
